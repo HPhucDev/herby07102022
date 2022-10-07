@@ -969,12 +969,12 @@ audio {
 }
 
 .bannar {
-	max-width: 100%;
-	-webkit-transform:translate(0px,-500px);
-	-moz-transform:translate(0px,-500px);
-	-o-transform:translate(0px,-500px);
-	-ms-transform:translate(0px,-500px);
-	transform:translate(0px,-500px);
+	max-width: 50%;
+	-webkit-transform:translate(0px,-2000px);
+	-moz-transform:translate(0px,-2000px);
+	-o-transform:translate(0px,-2000px);
+	-ms-transform:translate(0px,-2000px);
+	transform:translate(0px,-2000px);
 
 }
 .bannar-come {
@@ -1056,7 +1056,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
@@ -1273,7 +1273,7 @@ audio {
 }
 .message p {
 	font-family: 'Signika', sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 	text-transform: uppercase;
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
